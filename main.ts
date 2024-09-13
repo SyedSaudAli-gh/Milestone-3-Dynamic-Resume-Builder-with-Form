@@ -220,6 +220,7 @@ function submitResume(event: Event): void {
             </div>
         </body>
         </html>
-    `);
-    newWindow.document.close();
-}
+        `);
+        window.location.href = "index.html"
+        newWindow.document.close();
+    }
